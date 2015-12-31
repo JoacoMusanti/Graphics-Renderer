@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{3647b118-1f0a-4c03-8952-4b6e573cb7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect Files">
+      <UniqueIdentifier>{c30a2c45-4bf5-4f7e-972b-2a05331426fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics">
+      <UniqueIdentifier>{57d7b9d9-8fe4-4158-822b-3b4fd949d9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Input">
+      <UniqueIdentifier>{0dfef572-ff59-44e2-bf9e-938a8c32a881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\Light">
+      <UniqueIdentifier>{3e5cc86e-67b1-4149-87bf-7d83758eabfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\Importer">
+      <UniqueIdentifier>{cfa0576c-392f-4cd1-9526-884eb3e0d1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\Model">
+      <UniqueIdentifier>{46a9f8e7-ea94-41ca-971b-6ce70bb67b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\Model\Material">
+      <UniqueIdentifier>{5416183a-f0e1-457e-9f85-fb2a36f18f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\Shader">
+      <UniqueIdentifier>{04187247-9a41-4cc5-a8e2-44de75e0c815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Timer">
+      <UniqueIdentifier>{f901ca15-9f2a-4017-95fa-0dc4d5ecb401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\Camera">
+      <UniqueIdentifier>{d4bf10b7-5f08-4127-aa1c-4d6d7681a11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\2D">
+      <UniqueIdentifier>{256a2be9-0d47-4fe3-b89a-9fe773367d34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CInput.cpp">
+      <Filter>Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CImporter.cpp">
+      <Filter>Framework\Graphics\Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphics.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CSystem.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer.cpp">
+      <Filter>Framework\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="CShader.cpp">
+      <Filter>Framework\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Framework\Graphics\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CModel.cpp">
+      <Filter>Framework\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CMaterial.cpp">
+      <Filter>Framework\Graphics\Model\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CSprites.cpp">
+      <Filter>Framework\Graphics\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCamera.h">
+      <Filter>Framework\Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CModel.h">
+      <Filter>Framework\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CImporter.h">
+      <Filter>Framework\Graphics\Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphics.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CSystem.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>Framework\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="CShader.h">
+      <Filter>Framework\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaterial.h">
+      <Filter>Framework\Graphics\Model\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprites.h">
+      <Filter>Framework\Graphics\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Light.h">
+      <Filter>Framework\Graphics\Light</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="effect.fx">
+      <Filter>Effect Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
